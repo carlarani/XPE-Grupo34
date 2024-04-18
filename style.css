@@ -1,11 +1,125 @@
 body{
-    width: 100%;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 13px;
+    padding: 10px;
 }
 
-header{
-    display: flex;
+nav{
+    background-color: black;
+}
+
+main{
+    overflow: scroll;
+    margin-bottom: 80px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.yellow{
+    color: #ffca1a;
 }
 
 .spacer{
-    width: 30%;
+    width: 35%;
 }
+
+.inicio, .chat-section{
+    background-color: #222222;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+section{
+    margin-top: 15px;
+}
+
+.section-title{
+    font-size: 10px;
+}
+
+.cards{
+    display: flex;
+    font-size: 9px;
+    justify-content: space-around;
+}
+
+.card{
+    width: 33%;
+    height: 200px;
+    background-color: #1f1f1f;
+}
+
+.card-img-top{
+    height: 120px;
+}
+
+.card-title{
+    color: #d9cc7d;
+    font-size: 9px;
+}
+
+.card-text{
+    font-size: 8px;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-bar-bottom{
+    width: 100%;
+    background-color: black;
+    border-color: black;
+    height: 77px;
+    padding: 5px;
+    z-index: 1;
+}
+.btn-nav-bar-bottom{
+    background-color: black;
+    border-color: black;
+    padding: 0;
+}
+
+.btn-nav-bar-bottom:hover{
+    background-color: #1f1f1f;
+    border-color: black;
+}
+
+.nav-bar-botton-icon-text{
+    font-size: 12px;
+}
+
+
+
+.main-section-xpoupe{
+    text-align: center;
+}
+
+.chat-user-input{
+    height: 237px;
+    border-radius: 10px;
+}
+
+.btn-yellow{
+    margin-top: 5px;
+    background-color: #ffca1a;
+    color: black;
+    border-radius: 10px;
+}
+
+.xpoupe-spacer{
+    height: 35px;
+}
+
+.section-avalie{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
